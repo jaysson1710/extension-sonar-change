@@ -1,4 +1,4 @@
-##Change branch to check with sonar
+## Change branch to check with sonar
 
 Hi buddy, :+1:
 
@@ -16,4 +16,23 @@ Take in mind that here there are two versions for the same task: the first one w
 Versions:
 * Sonar branch 2 - Change sonar parameters
 * Sonar branch - Change sonar parameters
+
+
+### Change default branch
+
+This is another option to correct the problem in work with another branch different from the main branch. This choice changes the main branch into the repository, currently, this extension only works with Azure DevOps repos.
+
+Similar to the previous custom task, there are two versions to the same goal. the first one work in SO Windows (version Powershell) and the second one work with SO Linux, Windows or Mac (version node). Take in mind this topic to provide the agents with the required capabilities
+
+
+To work with this task you need :
+Enable option into the agent job for allowing access to the script to token information
+![](auth.png)
+
+You need to set the branch to be the default branch
+![](extension-change.png)
+
+Versions:
+* Branch - Change branch to check with sonar
+* Branch2 - Change branch to check with sonar
 
