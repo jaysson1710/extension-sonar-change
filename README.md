@@ -28,9 +28,11 @@ Similar to the previous custom task, there are two versions to the same goal. th
 
 To work with this task you need :
 Enable option into the agent job for allowing access to the script to token information
+
 ![](auth.png)
 
 You need to set the branch to be the default branch and one token allowed to http access.
+
 ![](extension-change.png)
 
 
